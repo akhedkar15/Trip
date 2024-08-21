@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Travel Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Travel Diaries</h1>
+    </header>
+    <main>
+        <h2>Select a Destination</h2>
+        <select id="destinationSelect">
+            <option value="">--Choose a Destination--</option>
+            <option value="paris">Paris</option>
+            <option value="new_york">New York</option>
+            <option value="tokyo">Tokyo</option>
+            <option value="london">London</option>
+            <option value="venice">Venice</option>
+            <option value="mumbai">Mumbai</option>
+        </select>
+            <h2>Select a Price Range for Hotels</h2>
+              <select id="priceRangeSelect">
+              <option value="">--Choose a Price Range--</option>
+              <option value="budget">Budget</option>
+              <option value="midrange">Midrange</option>
+              <option value="luxury">Luxury</option>
+        </select>
+        <div id="destinationInfo"></div>
+        <div id="weatherInfo"></div>
+        <div id="tipsContainer"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
